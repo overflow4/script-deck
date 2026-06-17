@@ -1,0 +1,44 @@
+name: Sync scripts from Google Doc
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'   # every ~10 minutes (GitHub may delay during peak load)
+  workflow_dispatch:           # lets you trigger a sync by hand
+  push:
+    branches: [main]
+    paths:
+      - 'sync/**'
+      - '.github/workflows/sync.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-scripts
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch doc and rebuild scripts.json
+        run: node sync/sync.mjs
+
+      - name: Commit if the scripts changed
+        run: |
+          if [[ -n "$(git status --porcelain scripts.json)" ]]; then
+            git config user.name "script-sync-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add scripts.json
+            git commit -m "chore: sync scripts from Google Doc"
+            git push
+            echo "Pushed updated scripts.json"
+          else
+            echo "No changes — scripts.json is already up to date."
+          fi

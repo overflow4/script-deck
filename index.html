@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1b3a" />
+  <title>Script Deck — tap to copy</title>
+  <meta name="description" content="Sales script deck — tap any line to copy it. Synced from the team script doc." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b1b3a'/><path d='M30 52l14 14 26-30' stroke='%23c8772e' stroke-width='10' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <h1>Script Deck</h1>
+        <p class="tagline">Tap any box to copy it</p>
+      </div>
+    </div>
+    <button id="refresh" class="refresh" type="button" title="Re-sync from the doc">
+      <span class="refresh-ico" aria-hidden="true">⟳</span>
+      <span class="synced" id="synced">…</span>
+    </button>
+  </header>
+
+  <nav class="tabs" id="tabs" aria-label="Scripts"></nav>
+
+  <div class="searchwrap">
+    <input id="search" class="search" type="search" placeholder="Search this script…"
+           autocomplete="off" autocapitalize="off" spellcheck="false" />
+  </div>
+
+  <main id="deck" class="deck" aria-live="polite"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="assertive"></div>
+
+  <footer class="foot">
+    <span id="foot-meta"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

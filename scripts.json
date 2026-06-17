@@ -1,0 +1,1042 @@
+{
+  "updated": "2026-06-17T18:47:25.635Z",
+  "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
+  "sections": [
+    {
+      "id": "warm-setting-phone-script",
+      "title": "WARM SETTING PHONE SCRIPT",
+      "blocks": [
+        {
+          "role": "note",
+          "text": "(Not a question, in a friendly way)",
+          "copy": "(Not a question, in a friendly way)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hey [Name]!",
+          "copy": "Hey [Name]!",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah this is (name)",
+          "copy": "Yeah this is (name)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hey (name), it’s (name) from Clean Machine. How have ya been?",
+          "copy": "Hey (name), it’s (name) from Clean Machine. How have ya been?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Good, how are you?",
+          "copy": "Good, how are you?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Doing great! No complaints over here.",
+          "copy": "Doing great! No complaints over here.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "I’m the coordinator here at the Clean Machine and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "copy": "I’m the coordinator here at the Clean Machine and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Continue",
+          "copy": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Continue",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "copy": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "*summary of what they do*",
+          "copy": "*summary of what they do*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "That’s exciting to hear! [custom compliment]",
+          "copy": "That’s exciting to hear! [custom compliment]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "copy": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "*Here’s why I think I need your help*",
+          "copy": "*Here’s why I think I need your help*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Awesome so it sounds like it’s good that we’re getting in touch now then! Have you (Step to reach goal, ex. Have you started to run ads) yet? (wait for answer) Ok gotcha - What have you done so far?",
+          "copy": "Awesome so it sounds like it’s good that we’re getting in touch now then! Have you (Step to reach goal, ex. Have you started to run ads) yet? (wait for answer) Ok gotcha - What have you done so far?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah, I’ve done XYZ, or no I haven’t because XYZ",
+          "copy": "Yeah, I’ve done XYZ, or no I haven’t because XYZ",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "(if they started to make progress, compliment them since it’s not easy). Ok and zooming out, what is the big goal?",
+          "copy": "(if they started to make progress, compliment them since it’s not easy). Ok and zooming out, what is the big goal?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "*BIG GOAL, THEY ARE PAINTNG THEIR VACATION*",
+          "copy": "*BIG GOAL, THEY ARE PAINTNG THEIR VACATION*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Great (Repeat goal,) and how soon are you looking to do this by?",
+          "copy": "Great (Repeat goal,) and how soon are you looking to do this by?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "I need to x by x date, or eh i don’t really need to x but it’d help (listen to what it would help with, if they don’t tell you, ask - this is the lever we can pull to motivate them to take action)",
+          "copy": "I need to x by x date, or eh i don’t really need to x but it’d help (listen to what it would help with, if they don’t tell you, ask - this is the lever we can pull to motivate them to take action)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Ok got it - (Recap what they are currently at, what their goal is by X date, what they are doing now) Seems like things are going fairly well….what made you reach out again?",
+          "copy": "Ok got it - (Recap what they are currently at, what their goal is by X date, what they are doing now) Seems like things are going fairly well….what made you reach out again?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Have them highlight pain points.",
+          "copy": "Have them highlight pain points.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Well I know that can be tough, I appreciate you sharing all this with me, it sounds like this could be a good fit and we should be able to help. Do you mind if I share my two cents?",
+          "copy": "Well I know that can be tough, I appreciate you sharing all this with me, it sounds like this could be a good fit and we should be able to help. Do you mind if I share my two cents?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "That’d be great!",
+          "copy": "That’d be great!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
+          "copy": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "copy": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah that’s reasonable",
+          "copy": "Yeah that’s reasonable",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Cool so I actually have an entire video walking you through exactly how to do this…two options…we can watch it on our next call…or I can send it over to watch it in between…which do you prefer?",
+          "copy": "Cool so I actually have an entire video walking you through exactly how to do this…two options…we can watch it on our next call…or I can send it over to watch it in between…which do you prefer?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "*they will take ownership of watching the video which increases the amount of people who watch*",
+          "copy": "*they will take ownership of watching the video which increases the amount of people who watch*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Great, well it what works best for you, I have a slot at x tomorrow or x the day after? *Set time within 36 hours*",
+          "copy": "Great, well it what works best for you, I have a slot at x tomorrow or x the day after? *Set time within 36 hours*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Real quick while I'm punching in my notes - what's your title exactly with [Company], are you the founder?",
+          "copy": "Real quick while I'm punching in my notes - what's your title exactly with [Company], are you the founder?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "I’m the founder",
+          "copy": "I’m the founder",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Awesome, and is there anyone else that might be beneficial to have on this call that I should cc? As an example, Do you have any co-founders? We would love to get them on the call as well, and the reason being is because with the nature of what we do we like to work with all of the founders.",
+          "copy": "Awesome, and is there anyone else that might be beneficial to have on this call that I should cc? As an example, Do you have any co-founders? We would love to get them on the call as well, and the reason being is because with the nature of what we do we like to work with all of the founders.",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yes, I would like my business partner on with me.",
+          "copy": "Yes, I would like my business partner on with me.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Perfect, What’s the email? I will go ahead and add them to the invite.",
+          "copy": "Perfect, What’s the email? I will go ahead and add them to the invite.",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "xxx@xxx.com",
+          "copy": "xxx@xxx.com",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "It was great speaking with you, I shot you the link to the invite. Did you get it? (wait for response) Perfect and you should have the video…did you receive it? (wait for response) and last thing…are you the type of person who keeps their commitments? The reason I'm asking is because our time gets booked up super fast.",
+          "copy": "It was great speaking with you, I shot you the link to the invite. Did you get it? (wait for response) Perfect and you should have the video…did you receive it? (wait for response) and last thing…are you the type of person who keeps their commitments? The reason I'm asking is because our time gets booked up super fast.",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yes",
+          "copy": "Yes",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "With that being said, is there any reason you wouldn't be able to make your time tomorrow?",
+          "copy": "With that being said, is there any reason you wouldn't be able to make your time tomorrow?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "I’ll be there!",
+          "copy": "I’ll be there!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Perfect- talk soon! Have a good day!",
+          "copy": "Perfect- talk soon! Have a good day!",
+          "variant": false
+        }
+      ]
+    },
+    {
+      "id": "cold-setting-phone-script",
+      "title": "COLD SETTING PHONE SCRIPT",
+      "blocks": [
+        {
+          "role": "note",
+          "text": "(Not a question, in a friendly way)",
+          "copy": "(Not a question, in a friendly way)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hey [Name]!",
+          "copy": "Hey [Name]!",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah this is (name)",
+          "copy": "Yeah this is (name)",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Hello?",
+          "copy": "Hello?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Hi [NAME]?",
+          "copy": "Hi [NAME]?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Hi [NAME], this is [BDR NAME]. I'm a coordinator here at the Clean Machine. How ya been?",
+          "copy": "Hi [NAME], this is [BDR NAME]. I'm a coordinator here at the Clean Machine. How ya been?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Good, how can I help you?",
+          "copy": "Good, how can I help you?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "So I'm just reaching out real quick [NAME] because we've worked with about (# of Avatar) and a lot of them have been [Avatar] actually and based off the conversations and data we’ve been going over, they’re struggling with to generate (X industry problem) and (Y industry problem) which have been tough for a lot of (Avatar) So I'm curious to hear about your current situation and how the past year has been for you?",
+          "copy": "So I'm just reaching out real quick [NAME] because we've worked with about (# of Avatar) and a lot of them have been [Avatar] actually and based off the conversations and data we’ve been going over, they’re struggling with to generate (X industry problem) and (Y industry problem) which have been tough for a lot of (Avatar) So I'm curious to hear about your current situation and how the past year has been for you?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Positive reply",
+          "copy": "Positive reply",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Negative reply (no pain, they’re doing great)",
+          "copy": "Negative reply (no pain, they’re doing great)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Ahh I completely understand. Which one is your biggest struggle right now - (X industry problem) or (Y industry problem)?",
+          "copy": "Ahh I completely understand. Which one is your biggest struggle right now - (X industry problem) or (Y industry problem)?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Awesome. Yeah hats off to you, [NAME]. (Positive Industry fact) So in terms of what I mentioned, it sounds like you’re doing well. What are you doing for (X problem) right now?",
+          "copy": "Awesome. Yeah hats off to you, [NAME]. (Positive Industry fact) So in terms of what I mentioned, it sounds like you’re doing well. What are you doing for (X problem) right now?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "primarily word of mouth….",
+          "copy": "primarily word of mouth….",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Okay, 100%. A lot of (Avatar) I've been talking to don’t have the upfront capital to be investing into paid ads...how do you feel about that or are you in the same boat?",
+          "copy": "Okay, 100%. A lot of (Avatar) I've been talking to don’t have the upfront capital to be investing into paid ads...how do you feel about that or are you in the same boat?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Same boat",
+          "copy": "Same boat",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "I hear you loud and clear. So [NAME] what we’re doing right now is actually having 30 minute consultation calls completely free. What we’re doing is showing you how we’re generating our clients (outcome) in their first (time) without (pain.) And that’s just what our average clients are doing right now. This free consultation call, whether we work together or not, I think you’ll take some things from the meeting that you’ll be able to implement in your business right now. How open would you be to something like that either tomorrow or [say the day after tomorrow]?",
+          "copy": "I hear you loud and clear. So [NAME] what we’re doing right now is actually having 30 minute consultation calls completely free. What we’re doing is showing you how we’re generating our clients (outcome) in their first (time) without (pain.) And that’s just what our average clients are doing right now. This free consultation call, whether we work together or not, I think you’ll take some things from the meeting that you’ll be able to implement in your business right now. How open would you be to something like that either tomorrow or [say the day after tomorrow]?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "YES",
+          "copy": "YES",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "NO",
+          "copy": "NO",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Great….[BOOK MEETING]",
+          "copy": "Great….[BOOK MEETING]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Okay, I completely understand. So [NAME], why don't I do this? The best email I have for you right now is [EMAIL]. Is that the best email to reach you?",
+          "copy": "Okay, I completely understand. So [NAME], why don't I do this? The best email I have for you right now is [EMAIL]. Is that the best email to reach you?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah, that's the best.",
+          "copy": "Yeah, that's the best.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Ok great! What I'm gonna do right now is send you a quick document with what we do at (Company) and a link to some free training resources we have for (Avatar)...but honestly it's pretty surface level and won’t really get to the point and I understand you’re super busy, but I'll send you that info so you can go over it. But again, we would just need 20 to 25 minutes, between tomorrow or the next day just to show you what we're doing for (Avatar) and again, whether we work together or not, I think you’re going to take some things from the meeting then you'll find interesting and can implement in your business today. Okay? Why don't we just go to get that on the calendar so we can go over the info. What time are you typically free tomorrow or [day]?",
+          "copy": "Ok great! What I'm gonna do right now is send you a quick document with what we do at (Company) and a link to some free training resources we have for (Avatar)...but honestly it's pretty surface level and won’t really get to the point and I understand you’re super busy, but I'll send you that info so you can go over it. But again, we would just need 20 to 25 minutes, between tomorrow or the next day just to show you what we're doing for (Avatar) and again, whether we work together or not, I think you’re going to take some things from the meeting then you'll find interesting and can implement in your business today. Okay? Why don't we just go to get that on the calendar so we can go over the info. What time are you typically free tomorrow or [day]?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "YES",
+          "copy": "YES",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "NO",
+          "copy": "NO",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Great….[book meeting]",
+          "copy": "Great….[book meeting]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Ok, completely understand. I’ll get that information and training over to you today. When would be a good day to touch base on it?",
+          "copy": "Ok, completely understand. I’ll get that information and training over to you today. When would be a good day to touch base on it?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Gives date",
+          "copy": "Gives date",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Dodges question",
+          "copy": "Dodges question",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Great….[book meeting]",
+          "copy": "Great….[book meeting]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "BDR",
+          "text": "Cool, I’ll follow up in a week or so. Hey, before I let you go, do you know any (Avatar) that would like (goal) over the next (time?)",
+          "copy": "Cool, I’ll follow up in a week or so. Hey, before I let you go, do you know any (Avatar) that would like (goal) over the next (time?)",
+          "variant": false
+        }
+      ]
+    },
+    {
+      "id": "closing-phone-script",
+      "title": "CLOSING PHONE SCRIPT",
+      "blocks": [
+        {
+          "role": "note",
+          "text": "(Not a question, in a friendly way)",
+          "copy": "(Not a question, in a friendly way)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hey [Name]!",
+          "copy": "Hey [Name]!",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah this is (name)",
+          "copy": "Yeah this is (name)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Tell a joke until they laugh. Options: “Don’t worry, I’m not an AI. If I glitch, it’s just the caffeine :)”",
+          "copy": "Tell a joke until they laugh. Options: “Don’t worry, I’m not an AI. If I glitch, it’s just the caffeine :)”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "“Was this call something you were looking forward to, or did it sneak up on you?”",
+          "copy": "“Was this call something you were looking forward to, or did it sneak up on you?”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "“Am I your first call today, or are you already emotionally exhausted from the day?”",
+          "copy": "“Am I your first call today, or are you already emotionally exhausted from the day?”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "[Then] So, are you ready to jump in?",
+          "copy": "[Then] So, are you ready to jump in?",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "Question-Based Framework.",
+          "copy": "Question-Based Framework.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Clarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”",
+          "copy": "Clarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Label them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
+          "copy": "Label them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Overview their pain. Ask what they've done in the past. Diagnose why it didn't work. Do this until you've gone through all their failures. This automatically positions you as the logical solution. “What have you done so far?” “(optional) How has that worked for you?”",
+          "copy": "Overview their pain. Ask what they've done in the past. Diagnose why it didn't work. Do this until you've gone through all their failures. This automatically positions you as the logical solution. “What have you done so far?” “(optional) How has that worked for you?”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.",
+          "copy": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Explain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
+          "copy": "Explain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Reinforce the prospect's decision. Once they've paid, you need to prevent buyer's remorse. Give them a huge hit of dopamine to reaffirm their purchase.",
+          "copy": "Reinforce the prospect's decision. Once they've paid, you need to prevent buyer's remorse. Give them a huge hit of dopamine to reaffirm their purchase.",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "Notes: Only Three Things to Say: Questions, Restatements (proof that you were listening), and Short stories (to explain). NEVER paragraphs and NEVER technobabble about random stuff. - Maintain childlike curiosity at all times",
+          "copy": "Notes: Only Three Things to Say: Questions, Restatements (proof that you were listening), and Short stories (to explain). NEVER paragraphs and NEVER technobabble about random stuff. - Maintain childlike curiosity at all times",
+          "variant": false
+        }
+      ]
+    },
+    {
+      "id": "dm-script-tt-fb-ig",
+      "title": "DM SCRIPT (TT,FB,IG)",
+      "blocks": [
+        {
+          "role": "label",
+          "text": "If they commented:",
+          "copy": "If they commented:"
+        },
+        {
+          "role": "label",
+          "text": "EMAILS:",
+          "copy": "EMAILS:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
+          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
+          "variant": false
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app",
+          "copy": "https://robinline-guide.vercel.app"
+        },
+        {
+          "role": "label",
+          "text": "HIRE:",
+          "copy": "HIRE:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
+          "variant": false
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app/hire",
+          "copy": "https://robinline-guide.vercel.app/hire"
+        },
+        {
+          "role": "label",
+          "text": "SYSTEM:",
+          "copy": "SYSTEM:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
+          "variant": false
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app/playbook",
+          "copy": "https://robinline-guide.vercel.app/playbook"
+        },
+        {
+          "role": "link",
+          "badge": "Goal",
+          "text": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
+          "copy": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Company",
+          "text": "Hey firstname, I saw you just commented, your cleaning company looks amazing! How long have you been in the cleaning game?",
+          "copy": "Hey firstname, I saw you just commented, your cleaning company looks amazing! How long have you been in the cleaning game?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "Yeah, ~2 years/Just starting out!",
+          "copy": "Yeah, ~2 years/Just starting out!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Company",
+          "text": "About two years in the game — got it",
+          "copy": "About two years in the game — got it",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "That’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
+          "copy": "That’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Alt",
+          "text": "Just getting started, Nice",
+          "copy": "Just getting started, Nice",
+          "variant": true
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "It takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
+          "copy": "It takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Are you more focused on automatically reaching out to all of your leads quickly or coordinating all of your cleaners rn?",
+          "copy": "Are you more focused on automatically reaching out to all of your leads quickly or coordinating all of your cleaners rn?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "communicating with my cleaners/keeping up with leads",
+          "copy": "communicating with my cleaners/keeping up with leads",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Company",
+          "text": "Alright so you’re spending too much time coordinating with your cleaners, got it.",
+          "copy": "Alright so you’re spending too much time coordinating with your cleaners, got it.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "That’s honestly awesome that you’ve gotten this far without paying for an automation agency or anything. That takes impressive amounts of hustle.",
+          "copy": "That’s honestly awesome that you’ve gotten this far without paying for an automation agency or anything. That takes impressive amounts of hustle.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Alt",
+          "text": "That’s huge",
+          "copy": "That’s huge",
+          "variant": true
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "A lot of ppl wish they had that problem, that means that people really trust you and the work you do. That takes serious hustle and consistency 💪 Just so I know where you’re at, what have you tried so far?",
+          "copy": "A lot of ppl wish they had that problem, that means that people really trust you and the work you do. That takes serious hustle and consistency 💪 Just so I know where you’re at, what have you tried so far?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "*All the pain I’ve felt*",
+          "copy": "*All the pain I’ve felt*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Company",
+          "text": "Totally get it. I have a bunch of clients who were in the same boat. Def have some suggestions for you (if you even want to hear them). I just like to ask before spurting out advice lol",
+          "copy": "Totally get it. I have a bunch of clients who were in the same boat. Def have some suggestions for you (if you even want to hear them). I just like to ask before spurting out advice lol",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "It would take me 23498 pages to type out haha but whenever we both have a minute we can hop on a quick call and I can explain them. Would you be up for that? (no pressure)",
+          "copy": "It would take me 23498 pages to type out haha but whenever we both have a minute we can hop on a quick call and I can explain them. Would you be up for that? (no pressure)",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "speaker": "Prospect",
+          "text": "sure I’m free now!/I’ll be free later…",
+          "copy": "sure I’m free now!/I’ll be free later…",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Cool here’s my cell (424) 275-5847 what’s yours?",
+          "copy": "Cool here’s my cell (424) 275-5847 what’s yours?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Alt",
+          "text": "Cool. Here’s my scheduling link so we can sync up. I’m going to keep my chat open, once you grab a time, just let me know so I can confirm it on my side.",
+          "copy": "Cool. Here’s my scheduling link so we can sync up. I’m going to keep my chat open, once you grab a time, just let me know so I can confirm it on my side.",
+          "variant": true
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
+          "copy": "https://calendly.com/dominic-theosirisai/cleaning-gameplan"
+        },
+        {
+          "role": "me",
+          "badge": "Follow-up",
+          "text": "Hey, any issues? Saw you didn’t grab a time, everything good?",
+          "copy": "Hey, any issues? Saw you didn’t grab a time, everything good?",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "Notes * Acknowledge what they said. Restate in your own words. This shows active listening. Ex. Two kids…and you’re an accountant… Compliment them on whatever they tell you. Tie it to a positive character trait if you can. Ex. Wow! Supermom! So Hardworking! Managing a full time career and two kids… Ask another question. Lead the conversation",
+          "copy": "Notes * Acknowledge what they said. Restate in your own words. This shows active listening. Ex. Two kids…and you’re an accountant… Compliment them on whatever they tell you. Tie it to a positive character trait if you can. Ex. Wow! Supermom! So Hardworking! Managing a full time career and two kids… Ask another question. Lead the conversation",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "* TKAD (time kills all deals), respond as fast as possible and always prefer a call now rather than scheduled.",
+          "copy": "* TKAD (time kills all deals), respond as fast as possible and always prefer a call now rather than scheduled.",
+          "variant": false
+        }
+      ]
+    },
+    {
+      "id": "dominics-script-cold-call",
+      "title": "DOMINICS SCRIPT COLD CALL",
+      "blocks": [
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey (name) its Dominic",
+          "copy": "Hey (name) its Dominic",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. Hey how can i help you 2. who ? 3. Why are you calling me?",
+          "copy": "1. Hey how can i help you 2. who ? 3. Why are you calling me?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Awesome nice to meet you, how are we doing today?",
+          "copy": "Awesome nice to meet you, how are we doing today?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. Good how are you? 2. What tf do you want",
+          "copy": "1. Good how are you? 2. What tf do you want",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Love ot hear that, yeah im calling because i own a cleaning company too… PAUSE",
+          "copy": "Love ot hear that, yeah im calling because i own a cleaning company too… PAUSE",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. Okay?... 2. Nice?..",
+          "copy": "1. Okay?... 2. Nice?..",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Yeha, and Me and my team over here at Spotless Scrubbers created a tool that we use everyday, would it be okay if i show you how it works?",
+          "copy": "Yeha, and Me and my team over here at Spotless Scrubbers created a tool that we use everyday, would it be okay if i show you how it works?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. Yeah go ahead 2. No im okay",
+          "copy": "1. Yeah go ahead 2. No im okay",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Perfect, excited to share. Essentially its an ai powers tool that handles all the new leads and turns them into booked appointments completely hands off. I'm talking everything, from the quoting call, to the team dispatch, and even all the way down to invoicing, payments, reviews and even retargeting old clients to come back and spend more money at your business.",
+          "copy": "Perfect, excited to share. Essentially its an ai powers tool that handles all the new leads and turns them into booked appointments completely hands off. I'm talking everything, from the quoting call, to the team dispatch, and even all the way down to invoicing, payments, reviews and even retargeting old clients to come back and spend more money at your business.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. Wow thats pretty cool 2. We already have something like that 3. What?",
+          "copy": "1. Wow thats pretty cool 2. We already have something like that 3. What?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Haha yeah, we love it and use it everyday at our business… Do you guys currently do all this manually or what do you guys use?",
+          "copy": "Haha yeah, we love it and use it everyday at our business… Do you guys currently do all this manually or what do you guys use?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. We use housecall pro, jobber, booking koala, launch 27, 2. No we do it manually with VA or in house",
+          "copy": "1. We use housecall pro, jobber, booking koala, launch 27, 2. No we do it manually with VA or in house",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "That's perfect, we actually partner with housecall pro, jobber, booking koala, launch 27, and integrate seamlessly.",
+          "copy": "That's perfect, we actually partner with housecall pro, jobber, booking koala, launch 27, and integrate seamlessly.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "That's perfect, we actually build you a CRM if you don't have one.",
+          "copy": "That's perfect, we actually build you a CRM if you don't have one.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "1. Yeah I dont know, it seems cool tho 2. Sounds awesome. Can I get some more info or something? 3. Just send me an email",
+          "copy": "1. Yeah I dont know, it seems cool tho 2. Sounds awesome. Can I get some more info or something? 3. Just send me an email",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Totally understand, its hard to believe how powerful AI is these days. You know what? How about we just hop on a video call and I will show you how it works in my business and what it would look like in yours, just so we can compare apples to apples and go from their.",
+          "copy": "Totally understand, its hard to believe how powerful AI is these days. You know what? How about we just hop on a video call and I will show you how it works in my business and what it would look like in yours, just so we can compare apples to apples and go from their.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "You know what? I cant remember the last time i even checked my email. I actually just have ai do all that for me haha. How about we just hop on a video call and I will show you how it works in my business and what it would look like in yours, just so we can compare apples to apples and go from there.",
+          "copy": "You know what? I cant remember the last time i even checked my email. I actually just have ai do all that for me haha. How about we just hop on a video call and I will show you how it works in my business and what it would look like in yours, just so we can compare apples to apples and go from there.",
+          "variant": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# The full doc export contains the PASSWORDS section — never commit it.
+raw_export.txt
+
+# Local preview helpers
+.claude/
+.DS_Store
+node_modules/
