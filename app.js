@@ -38,9 +38,10 @@ function escapeHtml(s) {
   );
 }
 
-// Highlight fill-in placeholders like [Name], (name), firstname.
+// Highlight fill-in placeholders like [Name], (name), firstname; colour links.
 function withPlaceholders(text) {
   let html = escapeHtml(text);
+  html = html.replace(/(https?:\/\/[^\s<]+)/g, (m) => `<span class="urltext">${m}</span>`);
   html = html.replace(/\[[^\]\n]{1,30}\]/g, (m) => `<span class="ph">${m}</span>`);
   html = html.replace(
     /\((?:[A-Za-z][A-Za-z #/0-9'-]{0,24})\)/g,
@@ -190,9 +191,11 @@ async function load(showSpin) {
     if (!res.ok) throw new Error(res.status);
     const fresh = await res.json();
     data = fresh;
+    // DM Script leads — surface it first and open it by default.
+    const dmIdx = data.sections.findIndex((s) => /dm/i.test(s.id));
+    if (dmIdx > 0) data.sections.unshift(data.sections.splice(dmIdx, 1)[0]);
     if (!activeId || !data.sections.some((s) => s.id === activeId)) {
-      const dm = data.sections.find((s) => /dm/i.test(s.id));
-      activeId = (dm || data.sections[0]).id;
+      activeId = data.sections[0].id;
     }
     renderTabs();
     renderDeck();

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T18:47:25.635Z",
+  "updated": "2026-06-17T19:04:49.520Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -23,7 +23,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah this is (name)",
           "copy": "Yeah this is (name)",
           "variant": false
@@ -39,7 +38,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Good, how are you?",
           "copy": "Good, how are you?",
           "variant": false
@@ -69,21 +67,13 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
-          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
-          "variant": false
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
-          "copy": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.\n\nSo with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.\n\nSo with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
           "variant": false
         },
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "*summary of what they do*",
           "copy": "*summary of what they do*",
           "variant": false
@@ -92,21 +82,13 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "That’s exciting to hear! [custom compliment]",
-          "copy": "That’s exciting to hear! [custom compliment]",
-          "variant": false
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
-          "copy": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "text": "That’s exciting to hear! [custom compliment]\n\nSo (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "copy": "That’s exciting to hear! [custom compliment]\n\nSo (name) was there something in particular that piqued your interest in commenting on the video we posted?",
           "variant": false
         },
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "*Here’s why I think I need your help*",
           "copy": "*Here’s why I think I need your help*",
           "variant": false
@@ -122,7 +104,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah, I’ve done XYZ, or no I haven’t because XYZ",
           "copy": "Yeah, I’ve done XYZ, or no I haven’t because XYZ",
           "variant": false
@@ -138,7 +119,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "*BIG GOAL, THEY ARE PAINTNG THEIR VACATION*",
           "copy": "*BIG GOAL, THEY ARE PAINTNG THEIR VACATION*",
           "variant": false
@@ -154,7 +134,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "I need to x by x date, or eh i don’t really need to x but it’d help (listen to what it would help with, if they don’t tell you, ask - this is the lever we can pull to motivate them to take action)",
           "copy": "I need to x by x date, or eh i don’t really need to x but it’d help (listen to what it would help with, if they don’t tell you, ask - this is the lever we can pull to motivate them to take action)",
           "variant": false
@@ -170,7 +149,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Have them highlight pain points.",
           "copy": "Have them highlight pain points.",
           "variant": false
@@ -186,7 +164,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "That’d be great!",
           "copy": "That’d be great!",
           "variant": false
@@ -195,20 +172,13 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
-          "copy": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
-          "variant": false
-        },
-        {
-          "role": "note",
-          "text": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
-          "copy": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "text": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)\n\nEx. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "copy": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)\n\nEx. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
           "variant": false
         },
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah that’s reasonable",
           "copy": "Yeah that’s reasonable",
           "variant": false
@@ -224,7 +194,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "*they will take ownership of watching the video which increases the amount of people who watch*",
           "copy": "*they will take ownership of watching the video which increases the amount of people who watch*",
           "variant": false
@@ -248,7 +217,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "I’m the founder",
           "copy": "I’m the founder",
           "variant": false
@@ -264,7 +232,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yes, I would like my business partner on with me.",
           "copy": "Yes, I would like my business partner on with me.",
           "variant": false
@@ -280,7 +247,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "xxx@xxx.com",
           "copy": "xxx@xxx.com",
           "variant": false
@@ -296,7 +262,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yes",
           "copy": "Yes",
           "variant": false
@@ -312,7 +277,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "I’ll be there!",
           "copy": "I’ll be there!",
           "variant": false
@@ -348,7 +312,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah this is (name)",
           "copy": "Yeah this is (name)",
           "variant": false
@@ -356,7 +319,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Hello?",
           "copy": "Hello?",
           "variant": false
@@ -380,7 +342,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Good, how can I help you?",
           "copy": "Good, how can I help you?",
           "variant": false
@@ -396,7 +357,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Positive reply",
           "copy": "Positive reply",
           "variant": false
@@ -404,7 +364,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Negative reply (no pain, they’re doing great)",
           "copy": "Negative reply (no pain, they’re doing great)",
           "variant": false
@@ -428,7 +387,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "primarily word of mouth….",
           "copy": "primarily word of mouth….",
           "variant": false
@@ -444,7 +402,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Same boat",
           "copy": "Same boat",
           "variant": false
@@ -460,7 +417,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "YES",
           "copy": "YES",
           "variant": false
@@ -468,7 +424,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "NO",
           "copy": "NO",
           "variant": false
@@ -492,7 +447,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah, that's the best.",
           "copy": "Yeah, that's the best.",
           "variant": false
@@ -508,7 +462,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "YES",
           "copy": "YES",
           "variant": false
@@ -516,7 +469,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "NO",
           "copy": "NO",
           "variant": false
@@ -540,7 +492,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Gives date",
           "copy": "Gives date",
           "variant": false
@@ -548,7 +499,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Dodges question",
           "copy": "Dodges question",
           "variant": false
@@ -592,7 +542,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah this is (name)",
           "copy": "Yeah this is (name)",
           "variant": false
@@ -628,22 +577,8 @@
         },
         {
           "role": "note",
-          "text": "Question-Based Framework.",
-          "copy": "Question-Based Framework.",
-          "variant": false
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "Clarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”",
-          "copy": "Clarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”",
-          "variant": false
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "Label them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
-          "copy": "Label them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
+          "text": "Question-Based Framework.\n\nClarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”\n\nLabel them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
+          "copy": "Question-Based Framework.\n\nClarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”\n\nLabel them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
           "variant": false
         },
         {
@@ -656,15 +591,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.",
-          "copy": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.",
-          "variant": false
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "Explain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
-          "copy": "Explain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
+          "text": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.\n\nExplain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
+          "copy": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.\n\nExplain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
           "variant": false
         },
         {
@@ -699,15 +627,9 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
-          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
+          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!\n\nhttps://robinline-guide.vercel.app",
+          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!\n\nhttps://robinline-guide.vercel.app",
           "variant": false
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app",
-          "copy": "https://robinline-guide.vercel.app"
         },
         {
           "role": "label",
@@ -717,15 +639,9 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
-          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!\n\nhttps://robinline-guide.vercel.app/hire",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!\n\nhttps://robinline-guide.vercel.app/hire",
           "variant": false
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app/hire",
-          "copy": "https://robinline-guide.vercel.app/hire"
         },
         {
           "role": "label",
@@ -735,15 +651,9 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
-          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\nhttps://robinline-guide.vercel.app/playbook",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\nhttps://robinline-guide.vercel.app/playbook",
           "variant": false
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app/playbook",
-          "copy": "https://robinline-guide.vercel.app/playbook"
         },
         {
           "role": "link",
@@ -763,7 +673,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "Yeah, ~2 years/Just starting out!",
           "copy": "Yeah, ~2 years/Just starting out!",
           "variant": false
@@ -772,30 +681,16 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Company",
-          "text": "About two years in the game — got it",
-          "copy": "About two years in the game — got it",
-          "variant": false
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "That’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
-          "copy": "That’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
+          "text": "About two years in the game — got it\n\nThat’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
+          "copy": "About two years in the game — got it\n\nThat’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
           "variant": false
         },
         {
           "role": "me",
           "badge": "Alt",
-          "text": "Just getting started, Nice",
-          "copy": "Just getting started, Nice",
+          "text": "Just getting started, Nice\n\nIt takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
+          "copy": "Just getting started, Nice\n\nIt takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
           "variant": true
-        },
-        {
-          "role": "me",
-          "badge": "Send",
-          "text": "It takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
-          "copy": "It takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
-          "variant": false
         },
         {
           "role": "me",
@@ -807,7 +702,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "communicating with my cleaners/keeping up with leads",
           "copy": "communicating with my cleaners/keeping up with leads",
           "variant": false
@@ -844,7 +738,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "*All the pain I’ve felt*",
           "copy": "*All the pain I’ve felt*",
           "variant": false
@@ -867,7 +760,6 @@
         {
           "role": "them",
           "badge": "They say",
-          "speaker": "Prospect",
           "text": "sure I’m free now!/I’ll be free later…",
           "copy": "sure I’m free now!/I’ll be free later…",
           "variant": false
@@ -890,7 +782,8 @@
           "role": "link",
           "badge": "Link",
           "text": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
-          "copy": "https://calendly.com/dominic-theosirisai/cleaning-gameplan"
+          "copy": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
+          "variant": false
         },
         {
           "role": "me",
@@ -925,8 +818,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. Hey how can i help you 2. who ? 3. Why are you calling me?",
           "copy": "1. Hey how can i help you 2. who ? 3. Why are you calling me?",
           "variant": false
@@ -939,8 +832,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. Good how are you? 2. What tf do you want",
           "copy": "1. Good how are you? 2. What tf do you want",
           "variant": false
@@ -953,8 +846,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. Okay?... 2. Nice?..",
           "copy": "1. Okay?... 2. Nice?..",
           "variant": false
@@ -967,8 +860,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. Yeah go ahead 2. No im okay",
           "copy": "1. Yeah go ahead 2. No im okay",
           "variant": false
@@ -981,8 +874,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. Wow thats pretty cool 2. We already have something like that 3. What?",
           "copy": "1. Wow thats pretty cool 2. We already have something like that 3. What?",
           "variant": false
@@ -995,8 +888,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. We use housecall pro, jobber, booking koala, launch 27, 2. No we do it manually with VA or in house",
           "copy": "1. We use housecall pro, jobber, booking koala, launch 27, 2. No we do it manually with VA or in house",
           "variant": false
@@ -1016,8 +909,8 @@
           "variant": false
         },
         {
-          "role": "me",
-          "badge": "Send",
+          "role": "them",
+          "badge": "They might say",
           "text": "1. Yeah I dont know, it seems cool tho 2. Sounds awesome. Can I get some more info or something? 3. Just send me an email",
           "copy": "1. Yeah I dont know, it seems cool tho 2. Sounds awesome. Can I get some more info or something? 3. Just send me an email",
           "variant": false

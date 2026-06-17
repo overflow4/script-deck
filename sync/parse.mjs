@@ -75,99 +75,123 @@ function isNote(text) {
   return false;
 }
 
+const isUrl = (s) => /^https?:\/\/\S+$/.test(s.trim());
+
+// Turn one finished block into a rendered, copy-ready entry. A block holds every
+// message a setter sends in one turn (its paragraphs), joined with blank lines so
+// the whole turn — text and links together — copies in a single tap.
+function emit(block, out) {
+  const text = block.paragraphs.join('\n\n').trim();
+  if (!text) return;
+  const variant = block.variant;
+  const first = block.paragraphs[0] || '';
+
+  // Explicit speaker label (Setter:/BDR:/Company:/Prospect:/…).
+  if (block.role === 'them') {
+    out.push({ role: 'them', badge: 'They say', text, copy: text, variant });
+    return;
+  }
+  if (block.role === 'me') {
+    out.push({ role: 'me', badge: variant ? 'Alt' : 'Send', speaker: block.speaker, text, copy: text, variant });
+    return;
+  }
+
+  // A numbered list of branches (e.g. Dominic's script lists the prospect's
+  // possible replies as "1. … 2. …") = what they might say, not what you send.
+  if (/^\d+[.)]\s/.test(first)) {
+    out.push({ role: 'them', badge: 'They might say', text, copy: text, variant });
+    return;
+  }
+
+  // Soft label (Follow-up:, Ultimate goal:).
+  for (const s of SOFT_LABELS) {
+    if (s.re.test(first)) {
+      const rest = text.replace(s.re, '').trim();
+      const role = isUrl(rest) ? 'link' : variant ? 'me' : s.role;
+      out.push({ role, badge: s.badge, text: rest || text, copy: rest || text, variant });
+      return;
+    }
+  }
+
+  // A turn that is nothing but a link.
+  if (block.paragraphs.length === 1 && isUrl(first)) {
+    out.push({ role: 'link', badge: 'Link', text, copy: text, variant });
+    return;
+  }
+
+  // Instructional note.
+  if (isNote(first)) {
+    out.push({ role: 'note', text, copy: text, variant });
+    return;
+  }
+
+  // Otherwise: a message (or messages) the setter sends.
+  out.push({ role: 'me', badge: variant ? 'Alt' : 'Send', text, copy: text, variant });
+}
+
 // Build copy-ready blocks from the body lines of one section.
+// Grouping rules (mirrors how the doc is written):
+//  • a speaker label, a "/" alternative, or a 2+ blank-line gap starts a new turn;
+//  • a single blank line just starts a new message paragraph within the same turn;
+//  • a bare URL stays inside the current turn as its own paragraph (text + link);
+//  • sub-headers like "EMAILS:" render as dividers between turns.
 function blocksFromLines(lines) {
   const blocks = [];
-  let buf = [];
-  let bufSpeaker = null; // { role, speaker } when the buffer started with a label
+  let block = null;   // { role, speaker, variant, paragraphs: [] }
+  let para = [];      // physical lines making up the current paragraph
+  let blanks = 0;
 
-  const flush = () => {
-    if (!buf.length) { bufSpeaker = null; return; }
-    let text = joinLines(buf);
-    buf = [];
-    const speakerMeta = bufSpeaker;
-    bufSpeaker = null;
-    if (!text) return;
-
-    // Variant / alternative branch marker.
-    let variant = false;
-    if (text.startsWith('/')) { variant = true; text = text.replace(/^\/\s*/, ''); }
-    if (!text) return;
-
-    // Explicit speaker label (Setter:/Prospect:/…).
-    if (speakerMeta) {
-      blocks.push({
-        role: speakerMeta.role,
-        badge: speakerMeta.role === 'me' ? 'Send' : 'They say',
-        speaker: speakerMeta.speaker,
-        text,
-        copy: text,
-        variant,
-      });
-      return;
+  const ensureBlock = () => (block ??= { role: null, speaker: null, variant: false, paragraphs: [] });
+  const flushPara = () => {
+    if (para.length) {
+      const joined = joinLines(para);
+      if (joined) ensureBlock().paragraphs.push(joined);
     }
-
-    // Soft label (Follow-up:, Ultimate goal:).
-    for (const s of SOFT_LABELS) {
-      if (s.re.test(text)) {
-        const rest = text.replace(s.re, '').trim();
-        const isUrl = /^https?:\/\/\S+$/.test(rest);
-        blocks.push({
-          role: isUrl ? 'link' : s.role,
-          badge: s.badge,
-          text: rest || text,
-          copy: rest || text,
-          variant,
-        });
-        return;
-      }
-    }
-
-    // Bare URL → copyable link pill.
-    if (/^https?:\/\/\S+$/.test(text)) {
-      blocks.push({ role: 'link', badge: 'Link', text, copy: text, variant });
-      return;
-    }
-
-    // Sub-header / grouping label.
-    if (isSubLabel(text)) {
-      blocks.push({ role: 'label', text, copy: text, variant });
-      return;
-    }
-
-    // Instructional note.
-    if (isNote(text)) {
-      blocks.push({ role: 'note', text, copy: text, variant });
-      return;
-    }
-
-    // Otherwise: an unlabeled message the setter sends (common in the DM script).
-    blocks.push({ role: 'me', badge: variant ? 'Alt' : 'Send', text, copy: text, variant });
+    para = [];
+  };
+  const flushBlock = () => {
+    flushPara();
+    if (block && block.paragraphs.length) emit(block, blocks);
+    block = null;
   };
 
   for (const raw of lines) {
     const t = raw.trim();
-    if (t === '') { flush(); continue; }                 // blank line = boundary
+
+    if (t === '') {                       // blank line
+      flushPara();
+      if (++blanks >= 2) flushBlock();    // 2+ blanks = end of turn
+      continue;
+    }
+    blanks = 0;
+
     const sp = matchSpeaker(t);
-    if (sp) {                                            // new speaker = boundary
-      flush();
-      bufSpeaker = { role: sp.role, speaker: sp.speaker };
-      if (sp.rest.trim()) buf.push(sp.rest.trim());
+    if (sp) {                             // speaker label = new turn
+      flushBlock();
+      block = { role: sp.role, speaker: sp.speaker, variant: false, paragraphs: [] };
+      if (sp.rest.trim()) para.push(sp.rest.trim());
       continue;
     }
-    if (/^https?:\/\/\S+$/.test(t)) {                    // standalone link = own box
-      flush();
-      blocks.push({ role: 'link', badge: 'Link', text: t, copy: t });
-      continue;
-    }
-    if (isSubLabel(t)) {                                 // "EMAILS:" header = own box
-      flush();
+    if (isSubLabel(t)) {                  // "EMAILS:" header = divider
+      flushBlock();
       blocks.push({ role: 'label', text: t, copy: t });
       continue;
     }
-    buf.push(t);                                         // continuation
+    if (t.startsWith('/')) {              // "/" = mutually-exclusive alternative
+      flushBlock();
+      block = { role: null, speaker: null, variant: true, paragraphs: [] };
+      const rest = t.replace(/^\/\s*/, '');
+      if (rest) para.push(rest);
+      continue;
+    }
+    if (isUrl(t)) {                       // link stays inside the current turn
+      flushPara();
+      ensureBlock().paragraphs.push(t);
+      continue;
+    }
+    para.push(t);                         // normal / wrapped continuation line
   }
-  flush();
+  flushBlock();
   return blocks;
 }
 

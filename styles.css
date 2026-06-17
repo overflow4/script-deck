@@ -149,6 +149,9 @@ body {
 .box.link .body { color: var(--copper); font-weight: 600; word-break: break-all; }
 .box.link .label { color: var(--copper); }
 
+/* inline links inside a copy box */
+.urltext { color: var(--copper); font-weight: 600; word-break: break-all; }
+
 /* placeholders to fill in */
 .ph {
   background: rgba(200,119,46,.14); color: var(--copper);
