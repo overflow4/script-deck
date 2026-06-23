@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T19:04:49.520Z",
+  "updated": "2026-06-23T21:35:46.370Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -653,6 +653,18 @@
           "badge": "Send",
           "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\nhttps://robinline-guide.vercel.app/playbook",
           "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\nhttps://robinline-guide.vercel.app/playbook",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "If they have a private account:",
+          "copy": "If they have a private account:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Send me a DM to open up our chats so that I can send it right to you!",
+          "copy": "Send me a DM to open up our chats so that I can send it right to you!",
           "variant": false
         },
         {
