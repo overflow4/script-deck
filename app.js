@@ -13,6 +13,8 @@ const els = {
 
 let data = null;
 let activeId = null;
+let lastChecked = 0;
+let lastSnapshot = null;
 
 /* ---------- helpers ---------- */
 
@@ -176,20 +178,30 @@ function renderDeck() {
 }
 
 function renderMeta() {
-  const ago = data.updated ? timeAgo(data.updated) : '';
-  els.synced.textContent = ago ? `Synced ${ago}` : 'Synced';
+  // Header shows when we last checked the server (changes on every refresh, so
+  // the button visibly does something); footer shows how fresh the doc data is.
+  els.synced.textContent = lastChecked ? `Checked ${timeAgo(lastChecked)}` : 'Checking…';
+  if (!data) { els.foot.textContent = ''; return; }
   const total = data.sections.reduce((n, s) => n + s.blocks.filter((b) => b.role !== 'label').length, 0);
-  els.foot.textContent = `${data.sections.length} scripts · ${total} copy-ready lines · auto-synced from the team doc`;
+  const docAge = data.updated ? `doc synced ${timeAgo(data.updated)}` : 'auto-synced from the team doc';
+  els.foot.textContent = `${data.sections.length} scripts · ${total} copy-ready lines · ${docAge}`;
 }
 
 /* ---------- data ---------- */
 
 async function load(showSpin) {
+  const started = Date.now();
   if (showSpin) els.refresh.classList.add('spin');
+  let outcome = 'error';
   try {
     const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
     if (!res.ok) throw new Error(res.status);
     const fresh = await res.json();
+    // Compare raw (pre-reorder) snapshots so reordering DM to the front doesn't
+    // register as a content change.
+    const snapshot = JSON.stringify(fresh.sections);
+    const changed = lastSnapshot !== null && snapshot !== lastSnapshot;
+    lastSnapshot = snapshot;
     data = fresh;
     // DM Script leads — surface it first and open it by default.
     const dmIdx = data.sections.findIndex((s) => /dm/i.test(s.id));
@@ -197,20 +209,31 @@ async function load(showSpin) {
     if (!activeId || !data.sections.some((s) => s.id === activeId)) {
       activeId = data.sections[0].id;
     }
+    lastChecked = Date.now();
     renderTabs();
     renderDeck();
     renderMeta();
+    outcome = changed ? 'updated' : 'current';
   } catch (err) {
     if (!data) {
       els.deck.innerHTML =
-        '<p class="empty error">Couldn\'t load the scripts. Pull to refresh or try again shortly.</p>';
-    } else {
-      showToast("Couldn't refresh");
+        '<p class="empty error">Couldn\'t load the scripts. Tap refresh or try again shortly.</p>';
     }
   } finally {
-    els.refresh.classList.remove('spin');
+    // Keep the spinner visible long enough to register as a real action.
+    const hold = Math.max(0, 600 - (Date.now() - started));
+    setTimeout(() => els.refresh.classList.remove('spin'), showSpin ? hold : 0);
+  }
+
+  if (showSpin) {
+    if (outcome === 'updated') showToast('Updated to latest ✓');
+    else if (outcome === 'current') showToast('Up to date ✓');
+    else showToast("Couldn't refresh — try again");
   }
 }
+
+// Keep the "Checked … ago" label ticking so it always reflects reality.
+setInterval(() => { if (lastChecked) renderMeta(); }, 30000);
 
 /* ---------- events ---------- */
 
