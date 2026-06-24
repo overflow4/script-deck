@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T21:35:46.370Z",
+  "updated": "2026-06-24T00:54:19.877Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -665,6 +665,18 @@
           "badge": "Send",
           "text": "Send me a DM to open up our chats so that I can send it right to you!",
           "copy": "Send me a DM to open up our chats so that I can send it right to you!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "MAGIC:",
+          "copy": "MAGIC:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\nhttps://robinline-guide.vercel.app/magic",
+          "copy": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\nhttps://robinline-guide.vercel.app/magic",
           "variant": false
         },
         {
