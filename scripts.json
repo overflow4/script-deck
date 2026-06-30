@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T00:54:19.877Z",
+  "updated": "2026-06-30T01:25:16.013Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -67,8 +67,15 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.\n\nSo with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
-          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.\n\nSo with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "copy": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
           "variant": false
         },
         {
@@ -82,8 +89,15 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "That’s exciting to hear! [custom compliment]\n\nSo (name) was there something in particular that piqued your interest in commenting on the video we posted?",
-          "copy": "That’s exciting to hear! [custom compliment]\n\nSo (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "text": "That’s exciting to hear! [custom compliment]",
+          "copy": "That’s exciting to hear! [custom compliment]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "copy": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
           "variant": false
         },
         {
@@ -172,8 +186,14 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)\n\nEx. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
-          "copy": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)\n\nEx. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "text": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
+          "copy": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "copy": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
           "variant": false
         },
         {
@@ -577,8 +597,22 @@
         },
         {
           "role": "note",
-          "text": "Question-Based Framework.\n\nClarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”\n\nLabel them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
-          "copy": "Question-Based Framework.\n\nClarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”\n\nLabel them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
+          "text": "Question-Based Framework.",
+          "copy": "Question-Based Framework.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Clarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”",
+          "copy": "Clarify why the prospect is there. You need to identify what they need help with. No understanding = no sell. “What made you comment on a post?”",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Label them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
+          "copy": "Label them with a problem. What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war. “So what I’m hearing is that ___ is your problem and you’re trying to solve ___, is that right?”",
           "variant": false
         },
         {
@@ -591,8 +625,15 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.\n\nExplain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
-          "copy": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.\n\nExplain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
+          "text": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.",
+          "copy": "Sell the vacation to your prospect. Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand why each variable is essential. This helps them understand how you're going to actually get results. We’ll… 1. Pick up your missed calls 2.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Explain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
+          "copy": "Explain away the prospect's concerns. Overcome the three main objections. Blaming circumstances (Time, Money, Fit), Blaming others (Spouse, Partner, Kids, Employees), Blaming self (Avoiding the decision, extrapolating past to present)",
           "variant": false
         },
         {
@@ -705,16 +746,30 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Company",
-          "text": "About two years in the game — got it\n\nThat’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
-          "copy": "About two years in the game — got it\n\nThat’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
+          "text": "About two years in the game — got it",
+          "copy": "About two years in the game — got it",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "That’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
+          "copy": "That’s solid 👊 Most people don’t last past year one, so that tells me you’re consistent and actually serious about building something real.",
           "variant": false
         },
         {
           "role": "me",
           "badge": "Alt",
-          "text": "Just getting started, Nice\n\nIt takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
-          "copy": "Just getting started, Nice\n\nIt takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
+          "text": "Just getting started, Nice",
+          "copy": "Just getting started, Nice",
           "variant": true
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "It takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
+          "copy": "It takes guts to jump in and build something from scratch instead of playing it safe, so respect for that 💪",
+          "variant": false
         },
         {
           "role": "me",

@@ -130,16 +130,16 @@ function emit(block, out) {
 }
 
 // Build copy-ready blocks from the body lines of one section.
-// Grouping rules (mirrors how the doc is written):
-//  • a speaker label, a "/" alternative, or a 2+ blank-line gap starts a new turn;
-//  • a single blank line just starts a new message paragraph within the same turn;
-//  • a bare URL stays inside the current turn as its own paragraph (text + link);
-//  • sub-headers like "EMAILS:" render as dividers between turns.
+// Grouping rules (mirrors how the doc is written — one chat message = one box):
+//  • any blank line ends the current box (each message you send is its own box);
+//  • a speaker label or a "/" alternative also starts a new box;
+//  • adjacent lines (with NO blank between) stay together — this fixes wrapped
+//    sentences and keeps a message glued to a link sitting right beneath it;
+//  • sub-headers like "EMAILS:" render as dividers between boxes.
 function blocksFromLines(lines) {
   const blocks = [];
   let block = null;   // { role, speaker, variant, paragraphs: [] }
   let para = [];      // physical lines making up the current paragraph
-  let blanks = 0;
 
   const ensureBlock = () => (block ??= { role: null, speaker: null, variant: false, paragraphs: [] });
   const flushPara = () => {
@@ -158,12 +158,10 @@ function blocksFromLines(lines) {
   for (const raw of lines) {
     const t = raw.trim();
 
-    if (t === '') {                       // blank line
-      flushPara();
-      if (++blanks >= 2) flushBlock();    // 2+ blanks = end of turn
+    if (t === '') {                       // any blank line ends the box
+      flushBlock();
       continue;
     }
-    blanks = 0;
 
     const sp = matchSpeaker(t);
     if (sp) {                             // speaker label = new turn
