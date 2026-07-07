@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T19:26:35.360Z",
+  "updated": "2026-07-07T22:19:29.326Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -317,16 +317,16 @@
       "blocks": [
         {
           "role": "note",
-          "text": "(Not a question, in a friendly way)",
-          "copy": "(Not a question, in a friendly way)",
+          "text": "(Not a question, in a friendly way. Like their buddy “Johnny!!”)",
+          "copy": "(Not a question, in a friendly way. Like their buddy “Johnny!!”)",
           "variant": false
         },
         {
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Hey [Name]!",
-          "copy": "Hey [Name]!",
+          "text": "[Name]!",
+          "copy": "[Name]!",
           "variant": false
         },
         {
@@ -362,8 +362,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "I’m the coordinator here at the Robinline and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
-          "copy": "I’m the coordinator here at the Robinline and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "text": "I’m the coordinator here at the Robinline and I’m just calling because you filled out a form with us on instagram requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "copy": "I’m the coordinator here at the Robinline and I’m just calling because you filled out a form with us on instagram requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
           "variant": false
         },
         {
@@ -977,8 +977,20 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!\n\nhttps://robinline-guide.vercel.app",
-          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!\n\nhttps://robinline-guide.vercel.app",
+          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
+          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "tap this link:",
+          "copy": "tap this link:"
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app",
+          "copy": "https://robinline-guide.vercel.app",
           "variant": false
         },
         {
@@ -989,8 +1001,20 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!\n\nhttps://robinline-guide.vercel.app/hire",
-          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!\n\nhttps://robinline-guide.vercel.app/hire",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "tap this link:",
+          "copy": "tap this link:"
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app/hire",
+          "copy": "https://robinline-guide.vercel.app/hire",
           "variant": false
         },
         {
@@ -1001,8 +1025,20 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\nhttps://robinline-guide.vercel.app/playbook",
-          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\nhttps://robinline-guide.vercel.app/playbook",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "tap this link:",
+          "copy": "tap this link:"
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app/playbook",
+          "copy": "https://robinline-guide.vercel.app/playbook",
           "variant": false
         },
         {
@@ -1025,8 +1061,20 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\nhttps://robinline-guide.vercel.app/magic",
-          "copy": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\nhttps://robinline-guide.vercel.app/magic",
+          "text": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!",
+          "copy": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "tap this link:",
+          "copy": "tap this link:"
+        },
+        {
+          "role": "link",
+          "badge": "Link",
+          "text": "https://robinline-guide.vercel.app/magic",
+          "copy": "https://robinline-guide.vercel.app/magic",
           "variant": false
         },
         {
