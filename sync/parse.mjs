@@ -129,6 +129,37 @@ function emit(block, out) {
   out.push({ role: 'me', badge: variant ? 'Alt' : 'Send', text, copy: text, variant });
 }
 
+// Re-attach a link to the message it belongs to. In the doc a link send reads:
+//   Hey … here's the playbook!         (message)
+//   <blank>
+//   tap this link:                      (lead-in)
+//   https://…                           (url)
+// After splitting on blank lines those become three boxes; a setter wants to
+// copy the whole thing at once. So a bare link (and an optional "tap this link:"
+// lead-in directly above it) folds back into the preceding message box. Named
+// reference links (badge "Goal", e.g. "Ultimate goal:") are left standalone.
+function mergeLinkSends(blocks) {
+  const out = [];
+  for (const b of blocks) {
+    if (b.role === 'link' && b.badge === 'Link') {
+      let idx = out.length - 1;
+      let leadIn = null;
+      if (out[idx] && out[idx].role === 'label') { leadIn = out[idx]; idx -= 1; }
+      const msg = out[idx];
+      if (msg && msg.role === 'me') {
+        const tail = (leadIn ? leadIn.text + '\n' : '') + b.text;
+        const text = `${msg.text}\n\n${tail}`;
+        msg.text = text;
+        msg.copy = text;
+        if (leadIn) out.pop(); // drop the lead-in label, now folded into msg
+        continue;              // drop the standalone link box
+      }
+    }
+    out.push(b);
+  }
+  return out;
+}
+
 // Build copy-ready blocks from the body lines of one section.
 // Grouping rules (mirrors how the doc is written — one chat message = one box):
 //  • any blank line ends the current box (each message you send is its own box);
@@ -190,7 +221,7 @@ function blocksFromLines(lines) {
     para.push(t);                         // normal / wrapped continuation line
   }
   flushBlock();
-  return blocks;
+  return mergeLinkSends(blocks);
 }
 
 export function parseDoc(text) {

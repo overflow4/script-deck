@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T22:19:29.326Z",
+  "updated": "2026-07-07T23:08:08.797Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -312,8 +312,8 @@
       ]
     },
     {
-      "id": "warm-setting-phone-script-es",
-      "title": "WARM SETTING PHONE SCRIPT (ES)",
+      "id": "ads-phone-script-en",
+      "title": "🇬🇧 ADS PHONE SCRIPT (EN)",
       "blocks": [
         {
           "role": "note",
@@ -368,23 +368,23 @@
         },
         {
           "role": "note",
-          "text": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Continue",
-          "copy": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Continue",
+          "text": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Perfect,",
+          "copy": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Perfect,",
           "variant": false
         },
         {
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
-          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "text": "The purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "copy": "The purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
           "variant": false
         },
         {
           "role": "me",
           "badge": "Send",
-          "text": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
-          "copy": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "text": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you a unique cleaning company?",
+          "copy": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you a unique cleaning company?",
           "variant": false
         },
         {
@@ -405,8 +405,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
-          "copy": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "text": "So (name) was there something in particular that piqued your interest in filling out that form on the meta ad?",
+          "copy": "So (name) was there something in particular that piqued your interest in filling out that form on the meta ad?",
           "variant": false
         },
         {
@@ -501,8 +501,8 @@
         },
         {
           "role": "note",
-          "text": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
-          "copy": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "text": "Ex. Since you are using a CRM that’s not built specifically for cleaning companies, you basically have to be a software to configure everything correctly hahaha…what would your life look like if you had 30 extra hours each week completely free? Things would look a lot easier, right? Haha",
+          "copy": "Ex. Since you are using a CRM that’s not built specifically for cleaning companies, you basically have to be a software to configure everything correctly hahaha…what would your life look like if you had 30 extra hours each week completely free? Things would look a lot easier, right? Haha",
           "variant": false
         },
         {
@@ -616,6 +616,298 @@
           "speaker": "Setter",
           "text": "Perfect- talk soon! Have a good day!",
           "copy": "Perfect- talk soon! Have a good day!",
+          "variant": false
+        }
+      ]
+    },
+    {
+      "id": "ads-phone-script-es",
+      "title": "🇲🇽 ADS PHONE SCRIPT (ES)",
+      "blocks": [
+        {
+          "role": "note",
+          "text": "(No es una pregunta formal, sino un saludo amistoso. Como si fueran amigos: \"¡¡Johnny!!\")",
+          "copy": "(No es una pregunta formal, sino un saludo amistoso. Como si fueran amigos: \"¡¡Johnny!!\")",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "¡[Nombre]!",
+          "copy": "¡[Nombre]!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Sí, soy (nombre).",
+          "copy": "Prospecto: Sí, soy (nombre).",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hola (nombre), soy (nombre) de Robinline. ¿Cómo has estado?",
+          "copy": "Hola (nombre), soy (nombre) de Robinline. ¿Cómo has estado?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Bien, ¿y tú?",
+          "copy": "Prospecto: Bien, ¿y tú?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "¡Muy bien! Todo va sobre ruedas por aquí.",
+          "copy": "¡Muy bien! Todo va sobre ruedas por aquí.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Soy el coordinador aquí en Robinline y te llamo porque completaste un formulario con nosotros en Instagram solicitando ayuda para gestionar tus llamadas perdidas y escalar tu *back-office* (operaciones administrativas). ¿Es mal momento para hablar?",
+          "copy": "Soy el coordinador aquí en Robinline y te llamo porque completaste un formulario con nosotros en Instagram solicitando ayuda para gestionar tus llamadas perdidas y escalar tu *back-office* (operaciones administrativas). ¿Es mal momento para hablar?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "SI DICEN QUE SÍ: Lo entiendo perfectamente; entonces seré breve. (Tono positivo) SI DICEN QUE NO: Perfecto.",
+          "copy": "SI DICEN QUE SÍ: Lo entiendo perfectamente; entonces seré breve. (Tono positivo) SI DICEN QUE NO: Perfecto.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "El objetivo de esta llamada es conocer un poco más sobre tu empresa y en qué punto te encuentras respecto a tus metas, además de explicarte nuestro proceso para ver si podemos ayudarte.",
+          "copy": "El objetivo de esta llamada es conocer un poco más sobre tu empresa y en qué punto te encuentras respecto a tus metas, además de explicarte nuestro proceso para ver si podemos ayudarte.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Dicho esto, he investigado un poco sobre (empresa); estoy viendo tu sitio web ahora mismo y parece que hacen un trabajo excelente. Tengo una idea general de la empresa, pero ¿podrías describirme brevemente —en unos 20 o 30 segundos— a qué se dedican y qué hace que su empresa de limpieza sea única?",
+          "copy": "Dicho esto, he investigado un poco sobre (empresa); estoy viendo tu sitio web ahora mismo y parece que hacen un trabajo excelente. Tengo una idea general de la empresa, pero ¿podrías describirme brevemente —en unos 20 o 30 segundos— a qué se dedican y qué hace que su empresa de limpieza sea única?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: *resumen de lo que hacen*",
+          "copy": "Prospecto: *resumen de lo que hacen*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "¡Qué bien suena eso! [elogio personalizado]",
+          "copy": "¡Qué bien suena eso! [elogio personalizado]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Entonces, (nombre), ¿hubo algo en particular que despertara tu interés para completar ese formulario en el anuncio de Meta?",
+          "copy": "Entonces, (nombre), ¿hubo algo en particular que despertara tu interés para completar ese formulario en el anuncio de Meta?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: *Aquí explican por qué creen que necesitan ayuda*",
+          "copy": "Prospecto: *Aquí explican por qué creen que necesitan ayuda*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Genial, ¡entonces parece que es un buen momento para que estemos en contacto! ¿Ya has (paso para alcanzar la meta, ej. empezado a publicar anuncios)? (esperar respuesta) Vale, entiendo. ¿Qué has hecho hasta ahora?",
+          "copy": "Genial, ¡entonces parece que es un buen momento para que estemos en contacto! ¿Ya has (paso para alcanzar la meta, ej. empezado a publicar anuncios)? (esperar respuesta) Vale, entiendo. ¿Qué has hecho hasta ahora?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Sí, he hecho X, Y y Z; o no, no lo he hecho porque X, Y y Z.",
+          "copy": "Prospecto: Sí, he hecho X, Y y Z; o no, no lo he hecho porque X, Y y Z.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "(si han avanzado, felicítalos, ya que no es fácil). Vale, y mirando el panorama general, ¿cuál es el objetivo principal? Prospecto: *GRAN OBJETIVO, ESTÁN VISUALIZANDO SUS VACACIONES*",
+          "copy": "(si han avanzado, felicítalos, ya que no es fácil). Vale, y mirando el panorama general, ¿cuál es el objetivo principal? Prospecto: *GRAN OBJETIVO, ESTÁN VISUALIZANDO SUS VACACIONES*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Genial (repite el objetivo), ¿y para cuándo tienes pensado lograr esto?",
+          "copy": "Genial (repite el objetivo), ¿y para cuándo tienes pensado lograr esto?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Necesito hacer X para la fecha X, o... bueno, en realidad no necesito hacer X, pero ayudaría (escucha en qué ayudaría; si no te lo dicen, pregunta: esta es la palanca que podemos usar para motivarlos a actuar).",
+          "copy": "Prospecto: Necesito hacer X para la fecha X, o... bueno, en realidad no necesito hacer X, pero ayudaría (escucha en qué ayudaría; si no te lo dicen, pregunta: esta es la palanca que podemos usar para motivarlos a actuar).",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Vale, entendido (resume su situación actual, su objetivo para la fecha X y lo que están haciendo ahora). Parece que las cosas van bastante bien... ¿qué te hizo contactarnos de nuevo?",
+          "copy": "Vale, entendido (resume su situación actual, su objetivo para la fecha X y lo que están haciendo ahora). Parece que las cosas van bastante bien... ¿qué te hizo contactarnos de nuevo?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Haz que señalen sus puntos de dolor (problemas o dificultades).",
+          "copy": "Prospecto: Haz que señalen sus puntos de dolor (problemas o dificultades).",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Bueno, sé que eso puede ser complicado; agradezco que compartas todo esto conmigo. Parece que podríamos encajar bien y que deberíamos poder ayudarte. ¿Te importa si te doy mi opinión?",
+          "copy": "Bueno, sé que eso puede ser complicado; agradezco que compartas todo esto conmigo. Parece que podríamos encajar bien y que deberíamos poder ayudarte. ¿Te importa si te doy mi opinión?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: ¡Eso estaría genial!",
+          "copy": "Prospecto: ¡Eso estaría genial!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Genial, es algo que vemos todo el tiempo. Basándonos en lo que me acabas de contar, lo que mejor funciona es... (explica brevemente por qué lo que hacen ahora no funciona y sugiere la solución efectiva).",
+          "copy": "Genial, es algo que vemos todo el tiempo. Basándonos en lo que me acabas de contar, lo que mejor funciona es... (explica brevemente por qué lo que hacen ahora no funciona y sugiere la solución efectiva).",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Ej.: Como usas un CRM que no está diseñado específicamente para empresas de limpieza, básicamente tienes que convertirte en un experto en software para configurarlo todo bien, jajaja... ¿Cómo sería tu vida si tuvieras 30 horas extra totalmente libres a la semana? Todo sería mucho más fácil, ¿verdad? Jaja.",
+          "copy": "Ej.: Como usas un CRM que no está diseñado específicamente para empresas de limpieza, básicamente tienes que convertirte en un experto en software para configurarlo todo bien, jajaja... ¿Cómo sería tu vida si tuvieras 30 horas extra totalmente libres a la semana? Todo sería mucho más fácil, ¿verdad? Jaja.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Sí, tiene sentido.",
+          "copy": "Prospecto: Sí, tiene sentido.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Genial. De hecho, tengo un vídeo completo donde explico paso a paso cómo hacer esto... hay dos opciones: podemos verlo en nuestra próxima llamada o te lo puedo enviar para que lo veas entretanto... ¿qué prefieres?",
+          "copy": "Genial. De hecho, tengo un vídeo completo donde explico paso a paso cómo hacer esto... hay dos opciones: podemos verlo en nuestra próxima llamada o te lo puedo enviar para que lo veas entretanto... ¿qué prefieres?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: *al elegir, asumen el compromiso de ver el vídeo, lo que aumenta la tasa de visualización*",
+          "copy": "Prospecto: *al elegir, asumen el compromiso de ver el vídeo, lo que aumenta la tasa de visualización*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Genial, lo que mejor te venga. Tengo un hueco mañana a las [hora] o pasado mañana a las [hora]. *Programa la cita dentro de las siguientes 36 horas*",
+          "copy": "Genial, lo que mejor te venga. Tengo un hueco mañana a las [hora] o pasado mañana a las [hora]. *Programa la cita dentro de las siguientes 36 horas*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Una pregunta rápida mientras tomo notas: ¿cuál es exactamente tu cargo en [Empresa]? ¿Eres el fundador? Prospecto: Soy el fundador.",
+          "copy": "Una pregunta rápida mientras tomo notas: ¿cuál es exactamente tu cargo en [Empresa]? ¿Eres el fundador? Prospecto: Soy el fundador.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Agente: Genial. ¿Hay alguien más a quien convenga incluir en esta llamada y a quien deba poner en copia? Por ejemplo, ¿tiene algún cofundador? Nos encantaría que también participaran, ya que, por la naturaleza de nuestro trabajo, preferimos colaborar con todos los fundadores.",
+          "copy": "Agente: Genial. ¿Hay alguien más a quien convenga incluir en esta llamada y a quien deba poner en copia? Por ejemplo, ¿tiene algún cofundador? Nos encantaría que también participaran, ya que, por la naturaleza de nuestro trabajo, preferimos colaborar con todos los fundadores.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Sí, me gustaría que mi socio también estuviera presente.",
+          "copy": "Prospecto: Sí, me gustaría que mi socio también estuviera presente.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Agente: Perfecto. ¿Cuál es su correo electrónico? Procederé a añadirlo a la invitación.",
+          "copy": "Agente: Perfecto. ¿Cuál es su correo electrónico? Procederé a añadirlo a la invitación.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: xxx@xxx.com",
+          "copy": "Prospecto: xxx@xxx.com",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Agente: Ha sido un placer hablar con usted. Ya le he enviado el enlace de la invitación. ¿Lo ha recibido? (esperar respuesta) Perfecto. También debería tener el vídeo... ¿lo ha recibido? (esperar respuesta) Y una última cosa... ¿es usted de las personas que cumplen con sus compromisos? Se lo pregunto porque nuestra agenda se llena muy rápido.",
+          "copy": "Agente: Ha sido un placer hablar con usted. Ya le he enviado el enlace de la invitación. ¿Lo ha recibido? (esperar respuesta) Perfecto. También debería tener el vídeo... ¿lo ha recibido? (esperar respuesta) Y una última cosa... ¿es usted de las personas que cumplen con sus compromisos? Se lo pregunto porque nuestra agenda se llena muy rápido.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: Sí.",
+          "copy": "Prospecto: Sí.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Agente: Dicho esto, ¿hay alguna razón por la que no pudiera asistir a la cita de mañana?",
+          "copy": "Agente: Dicho esto, ¿hay alguna razón por la que no pudiera asistir a la cita de mañana?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Prospecto: ¡Allí estaré!",
+          "copy": "Prospecto: ¡Allí estaré!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Agente: Perfecto, ¡hablamos pronto! ¡Que tenga un buen día!",
+          "copy": "Agente: Perfecto, ¡hablamos pronto! ¡Que tenga un buen día!",
           "variant": false
         }
       ]
@@ -977,20 +1269,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
-          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!",
-          "variant": false
-        },
-        {
-          "role": "label",
-          "text": "tap this link:",
-          "copy": "tap this link:"
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app",
-          "copy": "https://robinline-guide.vercel.app",
+          "text": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app",
+          "copy": "Hey , I saw you just commented! Here’s the email playbook you asked for that I use to get all of my commercial jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app",
           "variant": false
         },
         {
@@ -1001,20 +1281,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
-          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!",
-          "variant": false
-        },
-        {
-          "role": "label",
-          "text": "tap this link:",
-          "copy": "tap this link:"
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app/hire",
-          "copy": "https://robinline-guide.vercel.app/hire",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!\n\ntap this link:\nhttps://robinline-guide.vercel.app/hire",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for that I use to get all of my cleaners!\n\ntap this link:\nhttps://robinline-guide.vercel.app/hire",
           "variant": false
         },
         {
@@ -1025,20 +1293,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
-          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!",
-          "variant": false
-        },
-        {
-          "role": "label",
-          "text": "tap this link:",
-          "copy": "tap this link:"
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app/playbook",
-          "copy": "https://robinline-guide.vercel.app/playbook",
+          "text": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\ntap this link:\nhttps://robinline-guide.vercel.app/playbook",
+          "copy": "Hey , I saw you just commented! Here’s the playbook you asked for to automate your cleaning business!\n\ntap this link:\nhttps://robinline-guide.vercel.app/playbook",
           "variant": false
         },
         {
@@ -1061,20 +1317,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!",
-          "copy": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!",
-          "variant": false
-        },
-        {
-          "role": "label",
-          "text": "tap this link:",
-          "copy": "tap this link:"
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://robinline-guide.vercel.app/magic",
-          "copy": "https://robinline-guide.vercel.app/magic",
+          "text": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app/magic",
+          "copy": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app/magic",
           "variant": false
         },
         {
@@ -1210,16 +1454,9 @@
         {
           "role": "me",
           "badge": "Alt",
-          "text": "Cool. Here’s my scheduling link so we can sync up. I’m going to keep my chat open, once you grab a time, just let me know so I can confirm it on my side.",
-          "copy": "Cool. Here’s my scheduling link so we can sync up. I’m going to keep my chat open, once you grab a time, just let me know so I can confirm it on my side.",
+          "text": "Cool. Here’s my scheduling link so we can sync up. I’m going to keep my chat open, once you grab a time, just let me know so I can confirm it on my side.\n\nhttps://calendly.com/dominic-theosirisai/cleaning-gameplan",
+          "copy": "Cool. Here’s my scheduling link so we can sync up. I’m going to keep my chat open, once you grab a time, just let me know so I can confirm it on my side.\n\nhttps://calendly.com/dominic-theosirisai/cleaning-gameplan",
           "variant": true
-        },
-        {
-          "role": "link",
-          "badge": "Link",
-          "text": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
-          "copy": "https://calendly.com/dominic-theosirisai/cleaning-gameplan",
-          "variant": false
         },
         {
           "role": "me",
