@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T01:25:16.013Z",
+  "updated": "2026-07-07T19:26:35.360Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -31,8 +31,8 @@
           "role": "me",
           "badge": "Send",
           "speaker": "Setter",
-          "text": "Hey (name), it’s (name) from Clean Machine. How have ya been?",
-          "copy": "Hey (name), it’s (name) from Clean Machine. How have ya been?",
+          "text": "Hey (name), it’s (name) from Robinline. How have ya been?",
+          "copy": "Hey (name), it’s (name) from Robinline. How have ya been?",
           "variant": false
         },
         {
@@ -53,8 +53,317 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "I’m the coordinator here at the Clean Machine and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
-          "copy": "I’m the coordinator here at the Clean Machine and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "text": "I’m the coordinator here at the Robinline and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "copy": "I’m the coordinator here at the Robinline and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Continue",
+          "copy": "IF YES: Completely understand, well then I’ll make this quick (Positive tone) IF NO: Continue",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "copy": "Perfect, so the purpose of this call is really just to learn a little more about your company, where you’re at with your goal, as well as to share more about our process to see if we can help.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "copy": "So with that being said, I’ve done a little research on (company), I'm on your website right now and it looks like you’re doing some really great work. I have a general understanding of your company, but in your own words can you give me a quick 20-30 second high-level overview of what you guys do and what makes you unique?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "*summary of what they do*",
+          "copy": "*summary of what they do*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "That’s exciting to hear! [custom compliment]",
+          "copy": "That’s exciting to hear! [custom compliment]",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "copy": "So (name) was there something in particular that piqued your interest in commenting on the video we posted?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "*Here’s why I think I need your help*",
+          "copy": "*Here’s why I think I need your help*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Awesome so it sounds like it’s good that we’re getting in touch now then! Have you (Step to reach goal, ex. Have you started to run ads) yet? (wait for answer) Ok gotcha - What have you done so far?",
+          "copy": "Awesome so it sounds like it’s good that we’re getting in touch now then! Have you (Step to reach goal, ex. Have you started to run ads) yet? (wait for answer) Ok gotcha - What have you done so far?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Yeah, I’ve done XYZ, or no I haven’t because XYZ",
+          "copy": "Yeah, I’ve done XYZ, or no I haven’t because XYZ",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "(if they started to make progress, compliment them since it’s not easy). Ok and zooming out, what is the big goal?",
+          "copy": "(if they started to make progress, compliment them since it’s not easy). Ok and zooming out, what is the big goal?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "*BIG GOAL, THEY ARE PAINTNG THEIR VACATION*",
+          "copy": "*BIG GOAL, THEY ARE PAINTNG THEIR VACATION*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Great (Repeat goal,) and how soon are you looking to do this by?",
+          "copy": "Great (Repeat goal,) and how soon are you looking to do this by?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "I need to x by x date, or eh i don’t really need to x but it’d help (listen to what it would help with, if they don’t tell you, ask - this is the lever we can pull to motivate them to take action)",
+          "copy": "I need to x by x date, or eh i don’t really need to x but it’d help (listen to what it would help with, if they don’t tell you, ask - this is the lever we can pull to motivate them to take action)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Ok got it - (Recap what they are currently at, what their goal is by X date, what they are doing now) Seems like things are going fairly well….what made you reach out again?",
+          "copy": "Ok got it - (Recap what they are currently at, what their goal is by X date, what they are doing now) Seems like things are going fairly well….what made you reach out again?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Have them highlight pain points.",
+          "copy": "Have them highlight pain points.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Well I know that can be tough, I appreciate you sharing all this with me, it sounds like this could be a good fit and we should be able to help. Do you mind if I share my two cents?",
+          "copy": "Well I know that can be tough, I appreciate you sharing all this with me, it sounds like this could be a good fit and we should be able to help. Do you mind if I share my two cents?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "That’d be great!",
+          "copy": "That’d be great!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
+          "copy": "Great, so we see this all the time. Based on what you just told me, what we see works best (Briefly overview why what they are doing isn't working and hint at the solution that works.)",
+          "variant": false
+        },
+        {
+          "role": "note",
+          "text": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "copy": "Ex. Since you have a low ticket offer, you don’t collect enough cash on day one, which like you told me earlier you spend thousands on ads per month and don’t see a positive return, so if we put in an irresistible offer…like we did for xyz with a similar business…what would your business look like if we doubled the front end cash collected? We’d make more money right? Haha",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Yeah that’s reasonable",
+          "copy": "Yeah that’s reasonable",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Cool so I actually have an entire video walking you through exactly how to do this…two options…we can watch it on our next call…or I can send it over to watch it in between…which do you prefer?",
+          "copy": "Cool so I actually have an entire video walking you through exactly how to do this…two options…we can watch it on our next call…or I can send it over to watch it in between…which do you prefer?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "*they will take ownership of watching the video which increases the amount of people who watch*",
+          "copy": "*they will take ownership of watching the video which increases the amount of people who watch*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Great, well it what works best for you, I have a slot at x tomorrow or x the day after? *Set time within 36 hours*",
+          "copy": "Great, well it what works best for you, I have a slot at x tomorrow or x the day after? *Set time within 36 hours*",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Real quick while I'm punching in my notes - what's your title exactly with [Company], are you the founder?",
+          "copy": "Real quick while I'm punching in my notes - what's your title exactly with [Company], are you the founder?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "I’m the founder",
+          "copy": "I’m the founder",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Awesome, and is there anyone else that might be beneficial to have on this call that I should cc? As an example, Do you have any co-founders? We would love to get them on the call as well, and the reason being is because with the nature of what we do we like to work with all of the founders.",
+          "copy": "Awesome, and is there anyone else that might be beneficial to have on this call that I should cc? As an example, Do you have any co-founders? We would love to get them on the call as well, and the reason being is because with the nature of what we do we like to work with all of the founders.",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Yes, I would like my business partner on with me.",
+          "copy": "Yes, I would like my business partner on with me.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Perfect, What’s the email? I will go ahead and add them to the invite.",
+          "copy": "Perfect, What’s the email? I will go ahead and add them to the invite.",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "xxx@xxx.com",
+          "copy": "xxx@xxx.com",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "It was great speaking with you, I shot you the link to the invite. Did you get it? (wait for response) Perfect and you should have the video…did you receive it? (wait for response) and last thing…are you the type of person who keeps their commitments? The reason I'm asking is because our time gets booked up super fast.",
+          "copy": "It was great speaking with you, I shot you the link to the invite. Did you get it? (wait for response) Perfect and you should have the video…did you receive it? (wait for response) and last thing…are you the type of person who keeps their commitments? The reason I'm asking is because our time gets booked up super fast.",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Yes",
+          "copy": "Yes",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "With that being said, is there any reason you wouldn't be able to make your time tomorrow?",
+          "copy": "With that being said, is there any reason you wouldn't be able to make your time tomorrow?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "I’ll be there!",
+          "copy": "I’ll be there!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Perfect- talk soon! Have a good day!",
+          "copy": "Perfect- talk soon! Have a good day!",
+          "variant": false
+        }
+      ]
+    },
+    {
+      "id": "warm-setting-phone-script-es",
+      "title": "WARM SETTING PHONE SCRIPT (ES)",
+      "blocks": [
+        {
+          "role": "note",
+          "text": "(Not a question, in a friendly way)",
+          "copy": "(Not a question, in a friendly way)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hey [Name]!",
+          "copy": "Hey [Name]!",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Yeah this is (name)",
+          "copy": "Yeah this is (name)",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Hey (name), it’s (name) from Robinline. How have ya been?",
+          "copy": "Hey (name), it’s (name) from Robinline. How have ya been?",
+          "variant": false
+        },
+        {
+          "role": "them",
+          "badge": "They say",
+          "text": "Good, how are you?",
+          "copy": "Good, how are you?",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "speaker": "Setter",
+          "text": "Doing great! No complaints over here.",
+          "copy": "Doing great! No complaints over here.",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "I’m the coordinator here at the Robinline and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
+          "copy": "I’m the coordinator here at the Robinline and I’m just calling because you commented on our video requesting potentially getting help with your missed calls and scaling your back-office. Is now a bad time?",
           "variant": false
         },
         {
