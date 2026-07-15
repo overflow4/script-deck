@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T00:14:32.183Z",
+  "updated": "2026-07-15T21:58:08.337Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1311,6 +1311,18 @@
         },
         {
           "role": "label",
+          "text": "GUIDE:",
+          "copy": "GUIDE:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the full internal pdf guide for how I run cleaning companies!\n\ntap this link:\nhttps://robinline-guide.vercel.app/guide",
+          "copy": "Hey , I saw you just commented! Here’s the full internal pdf guide for how I run cleaning companies!\n\ntap this link:\nhttps://robinline-guide.vercel.app/guide",
+          "variant": false
+        },
+        {
+          "role": "label",
           "text": "MAGIC:",
           "copy": "MAGIC:"
         },
@@ -1319,6 +1331,18 @@
           "badge": "Send",
           "text": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app/magic",
           "copy": "Hey , I saw you just commented! Here’s the \"MAGIC\" link tool you asked for that I use for all my cleaning jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app/magic",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "MAP:",
+          "copy": "MAP:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s a custom scaling roadmap you asked for to show you the next step for your cleaning business!\n\ntap this link:\nhttps://robinline-guide.vercel.app/guide",
+          "copy": "Hey , I saw you just commented! Here’s a custom scaling roadmap you asked for to show you the next step for your cleaning business!\n\ntap this link:\nhttps://robinline-guide.vercel.app/guide",
           "variant": false
         },
         {
