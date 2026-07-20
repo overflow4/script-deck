@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T21:58:08.337Z",
+  "updated": "2026-07-20T16:58:47.248Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1305,8 +1305,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "Send me a DM to open up our chats so that I can send it right to you!",
-          "copy": "Send me a DM to open up our chats so that I can send it right to you!",
+          "text": "I think your account is private. Send me a DM to open up our chats so that I can send it right to you!",
+          "copy": "I think your account is private. Send me a DM to open up our chats so that I can send it right to you!",
           "variant": false
         },
         {
