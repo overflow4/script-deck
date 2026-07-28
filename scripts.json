@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:19:27.660Z",
+  "updated": "2026-07-28T18:14:48.960Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1305,8 +1305,8 @@
         {
           "role": "me",
           "badge": "Send",
-          "text": "I can’t send the document because of your account settings. Send me a DM to open up our chats so that I can send it right to you!",
-          "copy": "I can’t send the document because of your account settings. Send me a DM to open up our chats so that I can send it right to you!",
+          "text": "I can’t send the document because your tiktok is private. Send me a DM to open up our chats so I can send it right to you!",
+          "copy": "I can’t send the document because your tiktok is private. Send me a DM to open up our chats so I can send it right to you!",
           "variant": false
         },
         {
