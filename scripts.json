@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T21:11:03.554Z",
+  "updated": "2026-08-13T02:51:50.752Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1307,6 +1307,18 @@
           "badge": "Send",
           "text": "I can’t send you a message because your tiktok dms are private. Send me a DM to open up our chats so I can send it right to you!",
           "copy": "I can’t send you a message because your tiktok dms are private. Send me a DM to open up our chats so I can send it right to you!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "CLEANER CRM:",
+          "copy": "CLEANER CRM:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the Cleaner CRM to try for free!\n\ntap this link:\nhttps://robinline-guide.vercel.app/crm",
+          "copy": "Hey , I saw you just commented! Here’s the Cleaner CRM to try for free!\n\ntap this link:\nhttps://robinline-guide.vercel.app/crm",
           "variant": false
         },
         {
