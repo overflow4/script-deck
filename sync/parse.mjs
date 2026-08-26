@@ -77,6 +77,13 @@ function isNote(text) {
 
 const isUrl = (s) => /^https?:\/\/\S+$/.test(s.trim());
 
+// "First message:", "Second message:", "3rd message:" … — the doc writes these
+// on adjacent lines to mean separate sends. Each one starts its own copy box,
+// and the prefix itself is stripped so it never lands in the pasted text.
+const ORDINAL_MSG =
+  /^(?:first|second|third|fourth|fifth|next|last|\d+(?:st|nd|rd|th)?)\s+(?:message|msg|dm|text)\s*:\s*/i;
+
+
 // Turn one finished block into a rendered, copy-ready entry. A block holds every
 // message a setter sends in one turn (its paragraphs), joined with blank lines so
 // the whole turn — text and links together — copies in a single tap.
@@ -199,6 +206,12 @@ function blocksFromLines(lines) {
       flushBlock();
       block = { role: sp.role, speaker: sp.speaker, variant: false, paragraphs: [] };
       if (sp.rest.trim()) para.push(sp.rest.trim());
+      continue;
+    }
+    if (ORDINAL_MSG.test(t)) {            // "First message:" = its own send
+      flushBlock();
+      const rest = t.replace(ORDINAL_MSG, '').trim();
+      if (rest) para.push(rest);
       continue;
     }
     if (isSubLabel(t)) {                  // "EMAILS:" header = divider

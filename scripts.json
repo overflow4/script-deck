@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T09:51:09.931Z",
+  "updated": "2026-08-26T22:33:56.031Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1307,6 +1307,25 @@
           "badge": "Send",
           "text": "I can’t send you a message because your tiktok dms are private. Send me a DM to open up our chats so I can send it right to you!",
           "copy": "I can’t send you a message because your tiktok dms are private. Send me a DM to open up our chats so I can send it right to you!",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "If they’re reaching out to us:",
+          "copy": "If they’re reaching out to us:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey [name]!",
+          "copy": "Hey [name]!",
+          "variant": false
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Can you remind me which guide you commented about? Was it the emails guide? 😅",
+          "copy": "Can you remind me which guide you commented about? Was it the emails guide? 😅",
           "variant": false
         },
         {
