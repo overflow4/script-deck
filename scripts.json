@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T22:33:56.031Z",
+  "updated": "2026-08-31T04:29:59.190Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1326,6 +1326,18 @@
           "badge": "Send",
           "text": "Can you remind me which guide you commented about? Was it the emails guide? 😅",
           "copy": "Can you remind me which guide you commented about? Was it the emails guide? 😅",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "RANK:",
+          "copy": "RANK:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here’s the document you asked for all of the things I do to rank on google maps!\n\ntap this link:\nhttps://robinline-guide.vercel.app/rank",
+          "copy": "Hey , I saw you just commented! Here’s the document you asked for all of the things I do to rank on google maps!\n\ntap this link:\nhttps://robinline-guide.vercel.app/rank",
           "variant": false
         },
         {
