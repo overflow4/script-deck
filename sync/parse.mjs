@@ -240,12 +240,35 @@ function blocksFromLines(lines) {
 export function parseDoc(text) {
   const lines = text.replace(/\r\n?/g, '\n').split('\n');
 
+  // Inside a script, an all-caps line like "REALTOR" or "QUOTE" (a lead-magnet
+  // name written without its trailing colon) is a sub-header, not a new section:
+  // it is immediately followed by a link send ("Hey … tap this link: https://…").
+  // Real section headings (OFFER, DASHBOARD, …) are never followed by one, and
+  // anything containing "SCRIPT" is always a real heading.
+  const isSubHeaderInScript = (from) => {
+    let seen = 0;
+    for (let j = from; j < lines.length && seen < 8; j++) {
+      const t = lines[j].trim();
+      if (t === '') continue;
+      if (headingText(lines[j])) return false;           // hit the next real heading first
+      if (isUrl(t) || /^tap this link\s*:/i.test(t)) return true;
+      seen += 1;
+    }
+    return false;
+  };
+
   // 1) Split the doc into sections by heading lines.
   const sections = [];
   let cur = null;
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     const h = headingText(line);
     if (h) {
+      const inScript = cur && /\bSCRIPT\b/.test(cur.title);
+      if (inScript && !/\bSCRIPT\b/.test(h) && isSubHeaderInScript(i + 1)) {
+        cur.lines.push(`${h}:`);                          // keep as a divider in this script
+        continue;
+      }
       // De-dupe consecutive identical headings (the doc repeats some titles).
       if (cur && cur.title === h && cur.lines.every((l) => l.trim() === '')) {
         continue;

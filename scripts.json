@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T17:14:05.743Z",
+  "updated": "2026-09-11T02:51:38.933Z",
   "source": "https://docs.google.com/document/d/1YafTv6MHLYWOfrMnrct4bvU8zsfmnSjn_PwsnIUwY1w/edit",
   "sections": [
     {
@@ -1608,6 +1608,54 @@
           "badge": "Send",
           "text": "Can you remind me which guide you commented about? Was it the emails guide? 😅",
           "copy": "Can you remind me which guide you commented about? Was it the emails guide? 😅",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "REALTOR:",
+          "copy": "REALTOR:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here's the exact emails you asked for that I send realtors to get 28 cleaning jobs a month!\n\ntap this link:\nhttps://robinline-guide.vercel.app/realtor",
+          "copy": "Hey , I saw you just commented! Here's the exact emails you asked for that I send realtors to get 28 cleaning jobs a month!\n\ntap this link:\nhttps://robinline-guide.vercel.app/realtor",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "CONTRACT:",
+          "copy": "CONTRACT:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here's the exact subcontractor agreement you asked for that all of my cleaners sign!\n\ntap this link:\nhttps://robinline-guide.vercel.app/contract",
+          "copy": "Hey , I saw you just commented! Here's the exact subcontractor agreement you asked for that all of my cleaners sign!\n\ntap this link:\nhttps://robinline-guide.vercel.app/contract",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "WALKTHROUGH / CHECKLIST:",
+          "copy": "WALKTHROUGH / CHECKLIST:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here's the exact checklist you asked for that I use on every commercial walkthrough!\n\ntap this link:\nhttps://robinline-guide.vercel.app/walkthrough",
+          "copy": "Hey , I saw you just commented! Here's the exact checklist you asked for that I use on every commercial walkthrough!\n\ntap this link:\nhttps://robinline-guide.vercel.app/walkthrough",
+          "variant": false
+        },
+        {
+          "role": "label",
+          "text": "QUOTE:",
+          "copy": "QUOTE:"
+        },
+        {
+          "role": "me",
+          "badge": "Send",
+          "text": "Hey , I saw you just commented! Here's the free magic link quote tool you asked for that I use to close all my cleaning jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app/quote",
+          "copy": "Hey , I saw you just commented! Here's the free magic link quote tool you asked for that I use to close all my cleaning jobs!\n\ntap this link:\nhttps://robinline-guide.vercel.app/quote",
           "variant": false
         },
         {
